@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de la Unión</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <!--==================== Google Fonts =======================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--==================== Swiper CSS =======================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!--================== Remixicons CSS =====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--==================== Main CSS =======================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <!--==================== Header =======================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Nosotros</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#destination" class="nav__link">Beneficios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Descubre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="javascript:void(0)" class="btn btn--primary">
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+                <span class="nav__close">
+                    <i id="nav-close" class="ri-close-line"></i>
+                </span>
+            </div>
+            <span class="nav__open">
+                <i id="nav-open" class="ri-menu-5-line"></i>
+            </span>
+        </nav>
+    </header>
+
+    <!--==================== Main =======================-->
+    <main class="main">
+
+        <!--==================== Home =======================-->
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">Ven y <span>Disfruta</span> de nuestros servicios</h1>
+                    <p class="home__description">El Club de la Unión es el punto de reencuentro de los peruanos provenientes de todas las regiones del país y del mundo, sin distingo alguno. De allí su nombre que no sólo constituye un enunciado sino que es también un mensaje permanente de amistad y solidaridad.</p>
+                    <a href="#discover" class="btn btn--primary">
+                        Descubre
+                    </a>
+                </div>
+                <img src="assets/img/home.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--==================== About =======================-->
+        <section id="about" class="about section">
+            <div class="d-grid about__wrapper container">
+                <div class="about__content">
+                    <span class="section__subtitle">Nosotros</span>
+                    <h2 class="section__title">Estimados Asociados
+                    </h2>
+                    <p class="about__description">Nuestro compromiso de trabajo para reactivar nuestro club es un objetivo inquebrantable y a pesar de que la historia nos pone en un momento difícil conjugan esfuerzos junto a esta dirección un equipo técnico y profesional conjuntamente con nuestros trabajadores y asociados comprometidos para hacer de nuestro querido Club de la Unión uno de los mejores del país.</p>
+                    <a href="javascript:void(0)" class="btn btn--primary">Saber Más</a>
+                </div>
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--================ Destination ===================-->
+        <section id="destination" class="destination section">
+            <div class="section__header">
+                <span class="section__subtitle">Beneficios</span>
+                <h2 class="section__title">Más Populares</h2>
+            </div>
+            <div class="destination__wrapper container swiper">
+                <div class="swiper-wrapper">
+                    <!--======== destination 1 ===========-->
+                    <div class="destination__item swiper-slide">
+                        <img src="assets/img/destination1.jpg" alt="" class="destination__img">
+                        <div class="destination__info">
+                            <p class="destination__country">Canchas Deportivas</p>
+                            <h3 class="destination__name">Distracción</h3>
+                        </div>
+                    </div>
+                    <!--======== destination 2 ===========-->
+                    <div class="destination__item swiper-slide">
+                        <img src="assets/img/destination2.jpg" alt="" class="destination__img">
+                        <div class="destination__info">
+                            <p class="destination__country">Sauna Spa</p>
+                            <h3 class="destination__name">Relajación</h3>
+                        </div>
+                    </div>
+                    <!--======== destination 3 ===========-->
+                    <div class="destination__item swiper-slide">
+                        <img src="assets/img/destination3.jpg" alt="" class="destination__img">
+                        <div class="destination__info">
+                            <p class="destination__country">Zona de Camping</p>
+                            <h3 class="destination__name">Distracción</h3>
+                        </div>
+                    </div>
+                    <!--======== destination 4 ===========-->
+                    <div class="destination__item swiper-slide">
+                        <img src="assets/img/destination4.jpg" alt="" class="destination__img">
+                        <div class="destination__info">
+                            <p class="destination__country">Parrillas</p>
+                            <h3 class="destination__name">Confraternidad</h3>
+                        </div>
+                    </div>
+                    <!--======== destination 5 ===========-->
+                    <div class="destination__item swiper-slide">
+                        <img src="assets/img/destination5.jpg" alt="" class="destination__img">
+                        <div class="destination__info">
+                            <p class="destination__country">Gimnasio</p>
+                            <h3 class="destination__name">Fortalecimiento</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--========= Swiper navigation buttons ========-->
+                <div class="swiper__navigation">
+                    <div class="swiper__prev swiper__button">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper__next swiper__button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Video =======================-->
+        <section class="video section">
+            <div class="section__header">
+                <span class="section__subtitle">Tour</span>
+                <h2 class="section__title">Nuestras Instalaciones</h2>
+            </div>
+            <div class="d-grid video__wrapper container">
+                <div class="video__content">
+                    <video id="video-tour" class="video__tour">
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
+                    <div class="video__info">
+                        <button id="video-btn" class="video__btn">
+                            <i id="video-icon" class="ri-play-fill"></i>
+                        </button>
+                        <div class="video__info-wrapper">
+                            <span class="video__info-title">
+                                Recent Tour
+                            </span>
+                            <p class="video__info-description">
+                                Watch Video
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Discover =======================-->
+        <section id="discover" class="discover section">
+            <div class="section__header">
+                <span class="section__subtitle">Eventos</span>
+                <h2 class="section__title">Últimos Eventos y Noticias</h2>
+            </div>
+            <div class="d-grid discover__wrapper container">
+                <!--========== discover 1 ===========-->
+                <div class="discover__item">
+                    <div class="discover__img-wrapper">
+                        <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                        <span class="discover__price">
+                            Nuevo
+                        </span>
+                    </div>
+                    <div class="discover__info">
+                        <h3 class="discover__name">
+                            Brindis Día de la Mujer</h3>
+                        <p class="discover__tour">
+                            Mar 9, 2023
+                        </p>
+                        <p class="discover__duration">
+                            Eventos, Institucional
+                        </p>
+                        <a href="javascript:void(0)" class="discover__btn">
+                            Leer Más
+                        </a>
+                    </div>
+                </div>
+                <!--========== discover 2 ===========-->
+                <div class="discover__item">
+                    <div class="discover__img-wrapper">
+                        <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                        <span class="discover__price">
+                            Nuevo
+                        </span>
+                    </div>
+                    <div class="discover__info">
+                        <h3 class="discover__name">
+                            Fiesta de Luau 2023</h3>
+                        <p class="discover__tour">
+                            Feb 22, 2023
+                        </p>
+                        <p class="discover__duration">
+                            Eventos, Institucional
+                        </p>
+                        <a href="javascript:void(0)" class="discover__btn">
+                            Leer Más
+                        </a>
+                    </div>
+                </div>
+                <!--========== discover 3 ===========-->
+                <div class="discover__item">
+                    <div class="discover__img-wrapper">
+                        <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                        <span class="discover__price">
+                            Nuevo
+                        </span>
+                    </div>
+                    <div class="discover__info">
+                        <h3 class="discover__name">Entrega de Regalos</h3>
+                        <p class="discover__tour">
+                            Ene 26, 2023
+                        </p>
+                        <p class="discover__duration">
+                            Eventos, Institucional
+                        </p>
+                        <a href="javascript:void(0)" class="discover__btn">
+                            Leer Más
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Offer =======================-->
+        <section class="offer section">
+            <div class="d-grid offer__wrapper container">
+                <div class="offer__content">
+                    <span class="offer__subtitle">Nueva Sede</span>
+                    <p class="offer__duration">Disfruta de la nueva</p>
+                    <h3 class="offer__title">Sede Playa</h3>
+                    <p class="offer__description">
+                        Nuestra sede de playa denominada “Los Corales”, esta ubicada en el Distrito de Santa Rosa, camino de Ancón, con 300,000 m2 de áreas recreativas.
+                    </p>
+                    <div class="offer__price">
+                        <span class="offer__price-before">$250</span>
+                        <span class="offer__price-now">$150</span>
+                    </div>
+                    <a href="javascript:void" class="btn btn--primary">Saber Más</a>
+                </div>
+                <img src="assets/img/offer.jpg" alt="" class="offer__img">
+            </div>
+        </section>
+
+        <!--==================== Newsletter =======================-->
+        <section class="newsletter section">
+            <div class="d-grid newsletter__wrapper container">
+                <div class="newsletter__content">
+                    <h2 class="newsletter__title">Suscríbete para no perderte nada</h2>
+                    <p class="newsletter__description">
+                        Recibe notificaciones de las últimas ofertas y eventos del club.
+                    </p>
+                </div>
+                <form class="newsletter__form">
+                    <div class="form__group">
+                        <input type="email" class="form__input" placeholder="Correo Electrónico" required>
+                        <button class="btn btn--primary">
+                            Suscribirse
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== Footer =======================-->
+    <footer class="footer">
+        <div class="d-grid footer__wrapper container">
+            <div class="footer__content">
+                <h3 class="footer__brand">
+                    <img src="assets/img/logo.png" alt="">
+                </h3>
+                <p class="footer__description">
+                    Somos una asociación civil sin fines de lucro, que desarrolla sus actividades en beneficio de sus asociados y sus invitados, en los campos cultural, social y deportivo.
+                </p>
+                <div class="social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="javascriot:void(0)" class="social__link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="javascriot:void(0)" class="social__link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="javascriot:void(0)" class="social__link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="javascriot:void(0)" class="social__link">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Links</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#home" class="footer__link">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#about" class="footer__link">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#destination" class="footer__link">
+                            Beneficios
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#discover" class="footer__link">
+                            Eventos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Acerca De</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            Términos y Condiciones
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            Política de Privacidad
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Soporte</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#home" class="footer__link">
+                            Ayuda y P&R
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#about" class="footer__link">
+                            Contáctanos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__copyright container">
+            Copyright © Club de la Unión 2023. Todos los Derechos Reservados.
+        </p>
+    </footer>
+
+    <a href="#" id="scrolltop" class="scrolltop">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--==================== Swiper JS =======================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--==================== ScrollReveal =====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--==================== Main JS =======================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
